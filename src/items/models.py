@@ -2,7 +2,6 @@ import logging
 
 
 logger = logging.getLogger(__name__)
-print(f"===== {__name__}")
 
 
 class Item:
@@ -15,6 +14,4 @@ class Item:
         return f"<{self.__class__.__name__} ({self.name=}, {self.description=}, {self.value=})>"
 
     def save(self):
-        print("===== Saving item to file: %s" % self)
-
         logger.info("Saving item to file: %s", self)
