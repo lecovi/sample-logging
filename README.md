@@ -15,5 +15,5 @@ $ python3 cli.py
 - [With Print and Logger](/../feature/with-print-and-logger/cli.py): Logger is working as expected and we are using `print` to show the message.
     - We are [getting the logger](/../feature/with-print-and-logger/cli.py#L9) with the name of the package `src`.
 - [With Logger Module](/../feature/with-logger-module/cli.py): Logger is working as expected and we removed `print` calls.
-    - We are [getting the logger](/../feature/with-logger-module/cli.py#L9) with the name of the package `src`.
-    - We are [importing the logger](/../feature/with-logger-module/src/logger.py#L1) from the `src/logger.py` module.
+    - We are [getting the logger](/../feature/with-logger-module/src/logger.py#L3) with the name of the package `src`.
+    - We are [importing the logger](/../feature/with-logger-module/cli.py#L1) from the `src/logger.py` module.
