@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sample-logging"
+version = "0.1.0"
+description = "A simple Python app for learning the Python Logging package"
+authors = ["lecovi <leandro.colombo@mercadolibre.com>"]
+license = "GPL"
+readme = "README.md"
+packages = [{include = "sample_logging"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
